@@ -1,0 +1,18 @@
+# PyTorch (請依你的 CUDA 版本調整, 見 https://pytorch.org)
+# 例如 CUDA 12.1:
+#   pip install torch torchaudio --index-url https://download.pytorch.org/whl/cu121
+torch
+torchaudio
+
+# 語音轉文字
+whisper-s2t
+
+# 講者分離 (NVIDIA NeMo)
+nemo_toolkit[asr]
+
+# 繁體中文轉換
+opencc-python-reimplemented
+
+# 其他工具
+soundfile
+numpy
